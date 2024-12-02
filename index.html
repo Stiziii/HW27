@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Методологія БЕМ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Методологія БЕМ</h1>
+    </header>
+    <main class="main-content">
+        <div class="card">
+            <h2 class="card__title">Заголовок картки</h2>
+            <p class="card__text">Це текст у картці, оформленій за БЕМ.</p>
+            <button class="card__button card__button--primary">Кнопка</button>
+        </div>
+
+        <div class="card p-4 bg-gray-200 text-center rounded">
+            <h2 class="card__title text-xl font-bold text-gray-800">Поєднання Atomic CSS і БЕМ</h2>
+            <p class="card__text text-gray-600">Ця картка використовує класи обох методологій.</p>
+            <button class="card__button bg-green-500 hover:bg-green-700 text-white">Кнопка</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">© 2024 Мій сайт</p>
+    </footer>
+</body>
+</html>
